@@ -1,0 +1,56 @@
+body {
+    background: rgb(168, 39, 255);
+    background: linear-gradient(56deg, rgba(168, 39, 255, 1) 0%, rgba(252, 176, 69, 1) 59%, rgba(126, 252, 69, 1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Titre {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 450%;
+    color: rgb(255, 223, 163);
+    text-shadow: 7px 3px 0.5px black;
+    text-rendering: optimizeSpeed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .image {
+    width: 14%;
+    padding: 3%;
+}
+
+.pointer {
+    /* ... */
+    cursor: pointer;
+}
+
+.minititre {
+    text-align: center;
+    font-size: 350%;
+    text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.text {
+    text-align: center;
+    font-size: 330%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.tamere {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
